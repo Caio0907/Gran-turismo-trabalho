@@ -1,0 +1,315 @@
+body{
+	background-image: url(../img/fundo.jpg);
+}
+
+.cabeçalho{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 99%;
+	height: 15vh;
+	background-color: #df0000;
+	align-items: center;
+	transform: skew(20deg);
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	height: 9vh;
+	width: 40%;
+
+	align-items: center;
+	justify-content: space-around;
+	
+
+
+}
+.links{
+	background-color: blue;
+	width: 25%;
+	height: 3vh;
+	text-align: center;
+	align-items: center;
+	
+
+
+
+}
+.links a{
+	color: white;
+	font-size: 3vh;
+	margin: 3vh 0vh 3vh 0vh;
+	text-decoration: none;
+
+
+}
+.trailer{
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+.trailer iframe{
+	width: 80%;
+	height: 100vh;
+
+}
+.trpartecima{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	text-align: left;
+	color: white;
+	flex-direction: row;
+	align-items: baseline;
+
+
+}
+.linha{
+	
+	width: 38%;
+
+    
+}
+.linha hr{
+	border: white solid; 5px;
+}
+.trailerh1{
+	width: 60%;
+	font-size: 15px;
+}
+.sinopse{
+	width: 80%;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+}
+.sinopse h1{
+	font-size: 8vh;
+
+}
+.sinopse hr{
+	border: white solid; 1vh;
+}
+.sinopse p{
+	font-family: monospace;
+	font-size: 30px;
+	text-align: justify;
+}
+.logo{
+	width: 40%;
+	height: auto;
+
+	align-items: center;
+
+}
+.logo img{
+	width: 60%;
+	height: auto;
+	margin-left: 5vh;
+}
+.links a:hover{
+	color: gray;
+	cursor: pointer;
+
+}
+.conteudo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 5vh;
+
+
+}
+.jogo{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	color: white;
+
+}
+.textjogo{
+	font-size: 3.5vh;
+	font-family: monospace;
+	border-top: 2vh white dashed;
+	border-bottom: 2vh white dashed;
+}
+.saibajogo a{
+	font-size: 35px;
+	color: white;
+	
+	width: 40%;
+	text-decoration: none;	
+	margin-bottom: vh;
+
+
+}
+.saibajogo a:hover{
+	cursor: pointer;
+	border-bottom: solid 1vh white;
+
+
+	
+}
+.saibajogo{
+	margin-bottom: 10vh;
+}
+.banner{
+	width: 80%;
+	height: auto;
+	text-align: center;
+
+}
+.banner img{
+	height: auto;
+	width: 80%;
+
+}
+.banner p{
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: left;
+	margin-left: 10%;
+	border-bottom: 2vh white solid;
+	padding-bottom: 5vh;
+	margin-right: 10%;
+}
+.banner h1{
+	color: white;
+	font-size: 40px;
+	border-bottom: 2vh white solid;
+	margin: 0vh 10% 4vh 10%;
+	
+}
+.diretor{
+	width: 80%;
+	height: 40vh;
+	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 7vh;
+	border-bottom: 2vh white solid;
+	padding-bottom: 5vh;
+}
+.fotodire{
+	width: auto;
+	height: 40vh;
+	margin-left: 10%;
+
+}
+.fotodire img{
+	width: auto;
+	height: 40vh;
+	text-align: left;
+}
+.descridire{
+	width: 70%;
+	height: 37vh;
+	text-align: left;
+	font-size: 25px;
+	color: white;
+}
+.h1dire{
+	border-bottom: white 2vh solid;
+	width: 80%;
+	color: white;
+	font-size: 25px;
+	padding: 0vh;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #df0000;
+	margin-top: 10vh;
+
+}
+.curiosidades {
+	width: 80%;
+	height: auto;
+	color: white;
+	margin-top: 7vh;
+
+}
+.curiosidades p{
+	text-align: justify;
+	font-size: 25px;
+
+}
+.curiosidades li{
+	font-size: 25px;
+}
+.curiosidades h1{
+	border-bottom: 2vh white solid;
+	padding-bottom: 5vh;
+}
+.curiosidades ol{
+	border-bottom: 2vh white solid;
+	padding-bottom: 5vh;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: #df0000;
+	margin-top: 10vh;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.desenvolvedores{
+	color: white;
+	margin-right: 5%;
+}
+.logofot{
+	width: 40%;
+	height: auto;
+	align-items: center;
+}
+.logofot img{
+	width: 60%;
+	height: auto;
+	margin-left: 5vh;
+	margin-top: 4vh;
+}
+.desenvolvedores p{
+	font-size: 3vh;
+}
+.imgelenco{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: justify;
+	width: 80%;
+	margin-top: 5vh;
+	border: white dashed 1vh;
+	padding: 5vh;
+}
+.imgelenco img{
+	width: 22%;
+	height: auto;
+}
+.letra{
+	width: 60%;
+	height: auto;
+	color: white;
+	font-size: 30px;
+}
+.elenco{
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.elenco h1{
+	border-bottom: white 2vh solid;
+	margin: 5vh 10% 3vh 10%;
+	width: 80%;
+	color: white;
+}
